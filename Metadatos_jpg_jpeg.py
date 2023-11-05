@@ -32,10 +32,6 @@ def imprimir ():
     texto1.delete(1.0, tk.END)
     texto1.insert(tk.END, datos)
 
-    
-
-
-
 #------------------------------------Interfaz grafica--------------------------
 ventana = tk.Tk()
 ventana.title("Metadatos JPG y JPEG")
